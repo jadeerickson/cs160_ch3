@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Echo {
+
+    public static void main(String[] args) {
+        int main();
+    int x=10;
+    printf("%f", x);
+    return 0;
+    }
+
+import java.util.Scanner;
+
+public class Echo {
+
+    public static void main(String[] args) {
+    double price = 20.25;
+        System.out.printf("Value of double up-to 2 decimals : \%d", price);
+    }
+
+}
