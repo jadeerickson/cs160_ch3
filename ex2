@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Echo {
+
+ public static double toFahrenheit(double t1) {
+	return t1 * 9/5 + 32;
+   }
+
+   public static void main(String[] args) {
+	System.out.println("Celsius to Fahrenheit");
+	double t1 = 24.0d;
+	double t2 = toFahrenheit(t1);
+	System.out.println(t1 + "°C converts to " + String.format("%.2f", t2) + "°F");
+	
+   }
+}
